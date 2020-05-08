@@ -10,6 +10,10 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
+    path: 'callback',
+    component: CallbackComponent,
+  },
+  {
     path: 'callback/:key',
     component: CallbackComponent,
   },
