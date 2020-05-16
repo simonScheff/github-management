@@ -46,37 +46,37 @@ testem.log
 Thumbs.db
 
 # compiled output
-core-server/dist
-core-server/node_modules
+core/dist
+core/node_modules
 
 # Logs
-core-server/logs
+core/logs
 *.log
-core-server/npm-debug.log*
-core-server/yarn-debug.log*
-core-server/yarn-error.log*
-core-server/lerna-debug.log*
+core/npm-debug.log*
+core/yarn-debug.log*
+core/yarn-error.log*
+core/lerna-debug.log*
 
 # OS
-core-server/.DS_Store
+core/.DS_Store
 
 # Tests
-core-server/coverage
-core-server/.nyc_output
+core/coverage
+core/.nyc_output
 
 # IDEs and editors
-core-server/.idea
-core-server/.project
-core-server/.classpath
-core-server/.c9/
+core/.idea
+core/.project
+core/.classpath
+core/.c9/
 core-server/*.launch
-core-server/.settings/
+core/.settings/
 core-server/*.sublime-workspace
 
 # IDE - VSCode
-core-server/.vscode/*
-core-server/!.vscode/settings.json
-core-server/!.vscode/tasks.json
-core-server/!.vscode/launch.json
-core-server/!.vscode/extensions.json
+core/.vscode/*
+core/!.vscode/settings.json
+core/!.vscode/tasks.json
+core/!.vscode/launch.json
+core/!.vscode/extensions.json
 
