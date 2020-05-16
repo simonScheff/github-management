@@ -44,3 +44,39 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# compiled output
+core-server/dist
+core-server/node_modules
+
+# Logs
+core-server/logs
+*.log
+core-server/npm-debug.log*
+core-server/yarn-debug.log*
+core-server/yarn-error.log*
+core-server/lerna-debug.log*
+
+# OS
+core-server/.DS_Store
+
+# Tests
+core-server/coverage
+core-server/.nyc_output
+
+# IDEs and editors
+core-server/.idea
+core-server/.project
+core-server/.classpath
+core-server/.c9/
+core-server/*.launch
+core-server/.settings/
+core-server/*.sublime-workspace
+
+# IDE - VSCode
+core-server/.vscode/*
+core-server/!.vscode/settings.json
+core-server/!.vscode/tasks.json
+core-server/!.vscode/launch.json
+core-server/!.vscode/extensions.json
+
